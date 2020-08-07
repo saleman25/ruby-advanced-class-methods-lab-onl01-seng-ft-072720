@@ -39,7 +39,6 @@ end
 
 def self.alphabetical
 self.sort
-
 end
 
 
