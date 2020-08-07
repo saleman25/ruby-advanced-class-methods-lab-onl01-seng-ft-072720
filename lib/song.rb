@@ -38,7 +38,15 @@ def self.find_or_create_by_name(song_name)
 end
 
 def self.alphabetical
-self.sort
+self.sort|a, b|
+  if a == b
+    0
+  elsif a > b
+    1
+  elsif a < b
+    -1
+  end
+end
 end
 
 
