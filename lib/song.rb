@@ -40,9 +40,9 @@ end
 def self.alphabetical
 sorted = []
 @all.sort
-end
 sorted
-end 
+end
+
 
 
 
